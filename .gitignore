@@ -13,3 +13,10 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# VisualStudioCode
+.vscode/*
+**/.history
+
+# Mac .DS_Store metadata files
+.DS_Store
