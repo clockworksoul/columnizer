@@ -45,7 +45,7 @@ func (c *Columnizer) StringColumn(name string, f StringFunc) *Columnizer {
 	return c
 }
 
-// Will panic if o isn't a slice.
+// Format will panic if o isn't a slice.
 func (c *Columnizer) Format(o interface{}) []string {
 	// Build meta-format string
 	headers := strings.Builder{}
