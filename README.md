@@ -9,10 +9,10 @@ It currently only supports integers and strings (because that's all I've needed 
 Imagine you have a slice of `Bundle` values, which looks something like this following:
 
 ```go
-type Bundle struct {             
-	Name              string                    
-	Version           string                     
-	Enabled           bool                      
+type Bundle struct {
+	Name              string
+	Version           string
+	Enabled           bool
 }
 ```
 
