@@ -1,6 +1,6 @@
 # Columnizer
 
-Columnizer is a pretty trivial library that can columnize slice values for output.
+Columnizer is a trivial library that can columnize slices of structs into strings for output.
 
 It currently only supports integers and strings (because that's all I've needed so far). I'll make this better later.
 
