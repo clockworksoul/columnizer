@@ -10,9 +10,9 @@ Imagine you have a slice of `Bundle` values, which looks something like this fol
 
 ```go
 type Bundle struct {
-	Name              string
-	Version           string
-	Enabled           bool
+	Name    string
+	Version string
+	Enabled bool
 }
 ```
 
