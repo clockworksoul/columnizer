@@ -28,7 +28,7 @@ You want to output this data on your SLI in a reasonably pretty way. Columnizer 
 // Create a Columnizer value.
 c := &columnizer.Columnizer{}
 
-// For each column, add the appropriate header and value function/
+// For each column, add the appropriate header and value function.
 c.StringColumn("BUNDLE", func(i int) string { return bundles[i].Name })
 
 // The value function is just a small function that retrieves and returns
