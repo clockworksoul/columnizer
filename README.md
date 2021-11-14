@@ -52,7 +52,7 @@ c.Print(bundles)
 The widths of the columns are determined automatically. For example the above code might generate something like the following:
 
 ```
-BUNDLE              VERSION  Type
+BUNDLE              VERSION  TYPE
 MyBundle            0.0.1    Default
 SomeLongBundleName  0.0.2    Explicit
 ```
