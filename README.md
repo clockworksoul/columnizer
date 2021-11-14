@@ -37,11 +37,10 @@ c.StringColumn("VERSION", func(i int) string { return bundles[i].Version })
 
 // The value can include whatever presentation you like.
 c.StringColumn("TYPE", func(i int) string {
-    kind := "Explicit"
     if bundles[i].Default {
-        kind = "Default"
+        return "Default"
     }
-    return kind
+    return "Explicit"
 })
 
 // Finally, the Print method accepts the slice to present and outputs the
